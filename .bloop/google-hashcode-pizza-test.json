@@ -1,0 +1,150 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "google-hashcode-pizza-test",
+        "directory": "/Users/cieranneeson/code/google-hashcode-pizza",
+        "workspaceDir": "/Users/cieranneeson/code/google-hashcode-pizza",
+        "sources": [
+            "/Users/cieranneeson/code/google-hashcode-pizza/src/test/scala",
+            "/Users/cieranneeson/code/google-hashcode-pizza/src/test/scala-2.12",
+            "/Users/cieranneeson/code/google-hashcode-pizza/src/test/scala-2",
+            "/Users/cieranneeson/code/google-hashcode-pizza/src/test/java",
+            "/Users/cieranneeson/code/google-hashcode-pizza/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "google-hashcode-pizza"
+        ],
+        "classpath": [
+            "/Users/cieranneeson/code/google-hashcode-pizza/.bloop/google-hashcode-pizza/scala-2.12/classes",
+            "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+        ],
+        "out": "/Users/cieranneeson/code/google-hashcode-pizza/.bloop/google-hashcode-pizza",
+        "classesDir": "/Users/cieranneeson/code/google-hashcode-pizza/.bloop/google-hashcode-pizza/scala-2.12/test-classes",
+        "resources": [
+            "/Users/cieranneeson/code/google-hashcode-pizza/src/test/resources",
+            "/Users/cieranneeson/code/google-hashcode-pizza/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
+                "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/jline.jar",
+                "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
+                "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/jansi.jar",
+                "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/cieranneeson/code/google-hashcode-pizza/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre",
+                "options": [
+                    "-Duser.dir=/Users/cieranneeson/code/google-hashcode-pizza"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/cieranneeson/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/cieranneeson/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/cieranneeson/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}
